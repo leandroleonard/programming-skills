@@ -14,15 +14,15 @@ int main() {
     k %= 26;
     for (int i = 0;i < n; i++) {
         int c = s[i];
-        if (c >= 'a' && c <= 'z') { // Lowercase characters
+        if (c >= 'a' && c <= 'z') { 
             c += k;
-            if (c > 'z') { // C exceeds the ascii range of lowercase characters.
-               c = 96 + (c % 122); // wrapping from z to a
+            if (c > 'z') { 
+               c = 96 + (c % 122);
             }
-        } else if(c >= 'A' && c <= 'Z') { // Uppercase characters
+        } else if(c >= 'A' && c <= 'Z') { 
             c += k;
-            if(c > 'Z') { // C exceeds the ascii range of uppercase characters.
-                c = 64 + (c % 90); //wrapping from Z to A
+            if(c > 'Z') { 
+                c = 64 + (c % 90); 
             }
         }
         cout << (char)c;
