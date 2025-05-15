@@ -11,5 +11,5 @@ This repository contain some problem that I solve with Python, C++ or Other Prog
 - <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/strings/caesher_cipher.cpp">Camel Case (Python):</a> 
     - Description: https://www.hackerrank.com/challenges/camelcase/problem?isFullScreen=true
 
-- <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/strings/camelCase.py">Strong Password (Python): </a> 
+- <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/strings/strongPassword.py">Strong Password (Python): </a> 
     - Description: https://www.hackerrank.com/challenges/strong-password/problem?isFullScreen=true
