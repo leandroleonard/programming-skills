@@ -4,7 +4,9 @@ This repository contain some problem that I solve with Python, C++ or Other Prog
 
 ## Challenges: 
 
-### String
+### Algorithm
+
+#### String
 - CaeSher Cipher (<a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/strings/caesher_cipher.cpp">C++</a> , <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/strings/caesher_cipher.py">Python</a>): 
     - Description:  https://www.hackerrank.com/challenges/caesar-cipher-1/problem?isFullScreen=true
 
@@ -15,3 +17,6 @@ This repository contain some problem that I solve with Python, C++ or Other Prog
     - Description: https://www.hackerrank.com/challenges/strong-password/problem?isFullScreen=true
 - <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/strings/marsExploration.py">Mars Exploration</a>
     - Description: https://www.hackerrank.com/challenges/mars-exploration/problem?isFullScreen=true
+
+#### Greedy
+- <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/greedy/maxMin.py">Max Min (Python):</a> 
