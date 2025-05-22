@@ -21,3 +21,9 @@ This repository contain some problem that I solve with Python, C++ or Other Prog
 #### Greedy
 - <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/greedy/maxMin.py">Max Min (Python):</a> 
     - Description: https://www.hackerrank.com/challenges/angry-children/problem?isFullScreen=true
+
+### Implementation
+- <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/implementation/migratoryBirds.cpp">Migratory Birds (Python)</a>
+    - Description: https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true
+- <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/problem-solving/implementation/sequenceEquation.cpp">Sequence Equation (C++):</a>
+    - Description: https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true
