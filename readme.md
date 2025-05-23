@@ -30,5 +30,5 @@ This repository contain some problem that I solve with Python, C++ or Other Prog
 
 ### Mathematics
 ## Number Teory
-- <a href="#">Constructing a number (C++)</a>
+- <a href="https://github.com/leandroleonard/programming-skills/blob/main/hacker-rank/mathematics/number%20teory/constructingANumber.cpp">Constructing a number (C++)</a>
     - Description: https://www.hackerrank.com/challenges/constructing-a-number/problem?isFullScreen=true
