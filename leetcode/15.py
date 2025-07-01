@@ -29,6 +29,3 @@ class Solution:
                     right -= 1
 
         return result
-
-
-nums = [-1,0,1,2,-1,-4]
