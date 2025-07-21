@@ -6,7 +6,12 @@
 # not passed as a parameter.
 
 # Return true if there is a cycle in the linked list. Otherwise, return false.
-from typing import Optional, ListNode
+from typing import Optional
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
