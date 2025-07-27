@@ -8,22 +8,21 @@ class ListNode:
         
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head or not head.next:
-            return head
-
-        prev = head
-        current = head.next
-
+        dummy = ListNode(0, head)
+        prev = dummy
+        current = head
+        
         while current:
-            if current.val == prev.val:
-                while current.next and current.val == current.val:
+            if current.next and current.val == current.next.val:
+                val = current.val
+                while current and current.val == val:
                     current = current.next
                 prev.next = current
             else:
                 prev = current
                 current = current.next
 
-        return head
+        return dummy.next
 
     
     # Dont submit
@@ -56,8 +55,7 @@ def main():
     head = s.append(head, 5)
     
     s.traverseList(head)
-    s.deleteDuplicates(head)
-    s.traverseList(head)
+    s.traverseList(s.deleteDuplicates(head))
     
 if __name__ == '__main__':
     main()
